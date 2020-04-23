@@ -1,68 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tube app
 
-## Available Scripts
+Web app to view YouTube videos. A personal YouTube API key is required to run this project.
 
-In the project directory, you can run:
+App requires following environment variables, either inserted to system or injected from terminal:
 
-### `npm start`
+YOUTUBE_API_KEY=yourkeyhere
+NODE_ENV=development
+PORT=5000 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Example, when injecting from terminal:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+`ENV='development' YOUTUBE_API_KEY='yourkeyhere' PORT='5000' npm run startServer`
 
-### `npm test`
+In the project root directory, you can run:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `npm run installAll`
 
-### `npm run build`
+Install all dependencies to client and server.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `npm run startDev`
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Starts both client and server. Client runs on http://localhost:3000 and uses local server to proxy YouTube API requests. Server runs on http://localhost:5000. Client hot reload included.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run startServer`
 
-### `npm run eject`
+Starts server only. Server runs on http://localhost:5000. If client has been built, it is available through server as well. Changes to client aren't reloaded without client rebuild.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `npm run startClient`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Starts client only. Client runs on http://localhost:3000. Requests to YouTube API not possible without local server running.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### `npm run buildClient`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Builds production version of the client. Can be used through server, without starting client separately.
 
-## Learn More
+### Running on production
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+First build a production version of the client. Then move only the following files and folders to server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+public/
+app.js
+package-lock.json
+package.json
+README.md (optional)
 
-### Code Splitting
+Run command on root folder:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+`ENV='production' YOUTUBE_API_KEY='yourkeyhere' PORT='5000' npm run startServer`
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
