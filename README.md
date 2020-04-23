@@ -4,9 +4,9 @@ Web app to view YouTube videos. A personal YouTube API key is required to run th
 
 App requires following environment variables, either inserted to system or injected from terminal:
 
-YOUTUBE_API_KEY=yourkeyhere
-NODE_ENV=development
-PORT=5000 
+* YOUTUBE_API_KEY=yourkeyhere
+* NODE_ENV=development
+* PORT=5000 
 
 Example, when injecting from terminal:
 
@@ -38,11 +38,11 @@ Builds production version of the client. Can be used through server, without sta
 
 First build a production version of the client. Then move only the following files and folders to server:
 
-public/
-app.js
-package-lock.json
-package.json
-README.md (optional)
+* public/
+* app.js
+* package-lock.json
+* package.json
+* README.md (optional)
 
 Run command on root folder:
 
