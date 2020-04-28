@@ -7,6 +7,9 @@ var axios = require('axios');
 
 var port = process.env.PORT || '5000';
 var key = process.env.YOUTUBE_API_KEY;
+
+var mockResponse = require("./mock-response.json");
+
 app.set('port', port);
 
 app.use(express.json());
@@ -14,6 +17,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/public'))
 
 app.get('/api', function(req, res, next) {
+  //return res.status(200).send(mockResponse.data);
   if(!req.query.search) {
     const err = new Error('Required query params missing');
     err.status = 400;
@@ -22,7 +26,7 @@ app.get('/api', function(req, res, next) {
 
   axios.get('https://www.googleapis.com/youtube/v3/search', {
     params: {
-      part: 'snippet',
+      part: 'snippet,contentDetails',
       key: key,
       q: req.query.search,
       type: 'video',
@@ -34,7 +38,7 @@ app.get('/api', function(req, res, next) {
   })
   .catch(function (error) {
     const err = new Error('Request failed');
-    err.status = 500;
+    err.status = error.response.status;
     next(err);
   })
 });
