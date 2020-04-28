@@ -42,7 +42,7 @@ First build a production version of the client. Then move only the following fil
 * app.js
 * package-lock.json
 * package.json
-* README.md (optional)
+* README.md (for instructions, optional)
 
 Run command on root folder:
 
