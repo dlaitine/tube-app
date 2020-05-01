@@ -5,10 +5,11 @@ const Video = props => {
     return null;
   }
 
-  const videoUrl = 'https://www.youtube.com/embed/' + props.video.id.videoId;
+  const videoUrl = 'https://www.youtube.com/embed/' + props.video.id;
 
   return <div className="iframe-container">
       <iframe
+        title="video"
         src={videoUrl}
         allowFullScreen>
     </iframe>

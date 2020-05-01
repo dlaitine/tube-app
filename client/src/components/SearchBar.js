@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class SearchBar extends Component {
-  state = { search: '' };
+  state = { search: 'node programming' };
 
   onFormSubmit(event) {
     event.preventDefault();
@@ -17,7 +17,7 @@ class SearchBar extends Component {
           <label>Video Search</label>
             <input
               type="text"
-              placeHolder="Search videos..."
+              placeholder="Search videos..."
               value={this.state.search}
               onChange={e => this.setState({ search: e.target.value })} />
           </div>

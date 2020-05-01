@@ -12,7 +12,7 @@ class App extends Component {
     errorMessage: ''
   };
 
-  onSearchSubmit = async search => {
+  onSearchSubmit = async (search) => {
     this.setState({ errorMessage: '' });
 
     try {
