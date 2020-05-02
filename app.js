@@ -7,7 +7,7 @@ var app = express();
 var port = process.env.PORT || '5000';
 var key = process.env.YOUTUBE_API_KEY;
 
-var YTVideoSearch = require('./api/youtubeVideoSearch');
+var YTVideoSearch = require('./api/YTVideoSearch');
 
 app.set('port', port);
 
