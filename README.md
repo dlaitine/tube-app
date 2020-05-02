@@ -6,6 +6,8 @@ App requires following environment variables, either inserted to system or injec
 
 * YOUTUBE_API_KEY=yourkeyhere
 * NODE_ENV=development
+
+Use following in production only, since development versions of front and back will clash otherwise
 * PORT=5000 
 
 Example, when injecting from terminal:
