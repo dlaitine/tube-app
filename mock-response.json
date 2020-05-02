@@ -1,209 +1,366 @@
 {
   "data": {
-    "kind": "youtube#searchListResponse",
-    "etag": "\"nxOHAKTVB7baOKsQgTtJIyGxcs8/hNNuV4XatoPIP-v62Ois0WLBNKI\"",
-    "nextPageToken": "CAUQAA",
-    "regionCode": "SE",
-    "pageInfo": {
-      "totalResults": 1000000,
-      "resultsPerPage": 5
-    },
-    "items": [
-      {
-        "kind": "youtube#searchResult",
-        "etag": "\"nxOHAKTVB7baOKsQgTtJIyGxcs8/TrtDYHpScJljA2Nj2DCii2W6pHY\"",
-        "id": {
-          "kind": "youtube#video",
-          "videoId": "Ke90Tje7VS0"
-        },
-        "snippet": {
-          "publishedAt": "2018-07-16T16:51:44.000Z",
-          "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
-          "title": "React Tutorial - Learn React - React Crash Course [2019]",
-          "description": "React Tutorial with Examples - Learn React from scratch with this React Crash Course 2019. LIMITED TIME: Get the full course for $29 (reg price $149) ...",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/Ke90Tje7VS0/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/Ke90Tje7VS0/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/Ke90Tje7VS0/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            }
-          },
-          "channelTitle": "Programming with Mosh",
-          "liveBroadcastContent": "none"
-        }
+  "kind": "youtube#videoListResponse",
+  "etag": "\"Dn5xIderbhAnUk5TAW0qkFFir0M/4ihcWLVHHyNCa7BbYa4h_A3JKj0\"",
+  "pageInfo": {
+   "totalResults": 5,
+   "resultsPerPage": 5
+  },
+  "items": [
+   {
+    "kind": "youtube#video",
+    "etag": "\"Dn5xIderbhAnUk5TAW0qkFFir0M/wCoAAXvV__JqZ_BPUtz75GAZvjE\"",
+    "id": "TlB_eWDSMt4",
+    "snippet": {
+     "publishedAt": "2018-02-21T23:57:12.000Z",
+     "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+     "title": "Node.js Tutorial for Beginners: Learn Node in 1 Hour | Mosh",
+     "description": "Node.js Tutorial for Beginners: Learn Node in 1 Hour\n\n🔥Get the full course for $29 (reg price $149) - LIMITED TIME: http://bit.ly/2NfkpOC\n\nSubscribe for more videos: \nhttps://www.youtube.com/channel/UCWv7vMbMWH4-V0ZXdmDpPBA?sub_confirmation=1\n\nTABLE OF CONTENT: \n00:00 What is Node \n03:01 Node Architecture\n06:04 How Node Works \n10:29 Installing Node \n13:01 Your First Node Program \n15:22 Node Module System\n15:52 Global Object\n19:14 Modules \n22:51 Creating a Module \n27:35 Loading a Module \n32:59 Module Wrapper Function\n39:53 Path Module\n44:03 OS Module\n48:22 File System Module\n53:14 Events Module\n59:33 Event Arguments\n01:02:43 Extending EventEmitter\n01:10:46 HTTP Module \n\n\nWant to learn more from me? Check out my blog and courses: \n\nhttp://programmingwithmosh.com \nhttps://www.facebook.com/programmingwithmosh/\nhttps://twitter.com/moshhamedani",
+     "thumbnails": {
+      "default": {
+       "url": "https://i.ytimg.com/vi/TlB_eWDSMt4/default.jpg",
+       "width": 120,
+       "height": 90
       },
-      {
-        "kind": "youtube#searchResult",
-        "etag": "\"nxOHAKTVB7baOKsQgTtJIyGxcs8/7YAW4ZEeo4GjutfV--Ra2lasU_k\"",
-        "id": {
-          "kind": "youtube#video",
-          "videoId": "N3AkSS5hXMA"
-        },
-        "snippet": {
-          "publishedAt": "2018-06-27T04:05:47.000Z",
-          "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
-          "title": "What is React? | Mosh",
-          "description": "What is React? This video explains it in 5 Minutes! Get the COMPLETE Course (67% OFF - LIMITED TIME): http://programmingwithmosh.com/courses/react ...",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/N3AkSS5hXMA/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/N3AkSS5hXMA/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/N3AkSS5hXMA/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            }
-          },
-          "channelTitle": "Programming with Mosh",
-          "liveBroadcastContent": "none"
-        }
+      "medium": {
+       "url": "https://i.ytimg.com/vi/TlB_eWDSMt4/mqdefault.jpg",
+       "width": 320,
+       "height": 180
       },
-      {
-        "kind": "youtube#searchResult",
-        "etag": "\"nxOHAKTVB7baOKsQgTtJIyGxcs8/fx3fkihhdaVcMIBYOuISJtkAEnw\"",
-        "id": {
-          "kind": "youtube#video",
-          "videoId": "DLX62G4lc44"
-        },
-        "snippet": {
-          "publishedAt": "2018-12-18T16:21:19.000Z",
-          "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
-          "title": "Learn React JS - Full Course for Beginners - Tutorial 2019",
-          "description": "React.js is a JavaScript library for building dynamic web applications. Upon completion of this course, you'll know everything you need in order to build web ...",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/DLX62G4lc44/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/DLX62G4lc44/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/DLX62G4lc44/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            }
-          },
-          "channelTitle": "freeCodeCamp.org",
-          "liveBroadcastContent": "none"
-        }
+      "high": {
+       "url": "https://i.ytimg.com/vi/TlB_eWDSMt4/hqdefault.jpg",
+       "width": 480,
+       "height": 360
       },
-      {
-        "kind": "youtube#searchResult",
-        "etag": "\"nxOHAKTVB7baOKsQgTtJIyGxcs8/EEyIw9d1mXonfuRUI6-N7X2td8g\"",
-        "id": {
-          "kind": "youtube#video",
-          "videoId": "0KlRgFEEz0g"
-        },
-        "snippet": {
-          "publishedAt": "2017-11-01T22:10:29.000Z",
-          "channelId": "UCyU5wkjgQYGRB0hIHMwm2Sg",
-          "title": "What Is React?",
-          "description": "The first video in the What Is? series, where I dive into various web dev topics and explain them in plain english. Sign up for Level Up Pro for full access ...",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/0KlRgFEEz0g/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/0KlRgFEEz0g/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/0KlRgFEEz0g/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            }
-          },
-          "channelTitle": "LevelUpTuts",
-          "liveBroadcastContent": "none"
-        }
+      "standard": {
+       "url": "https://i.ytimg.com/vi/TlB_eWDSMt4/sddefault.jpg",
+       "width": 640,
+       "height": 480
       },
-      {
-        "kind": "youtube#searchResult",
-        "etag": "\"nxOHAKTVB7baOKsQgTtJIyGxcs8/8paaUjm4wPvzvwaT56tixVDHYkk\"",
-        "id": {
-          "kind": "youtube#video",
-          "videoId": "e_ZibOe77yo"
-        },
-        "snippet": {
-          "publishedAt": "2018-08-26T18:31:45.000Z",
-          "channelId": "UC4MZ7zUHb5eAxU75Dc_nqdQ",
-          "title": "Code your first React app | Beginner React app | To Do List",
-          "description": "Code your first React app with me! Once you have a solid understanding of how to make a to do list with React, it is much easier to continue to build on to that ...",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/e_ZibOe77yo/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/e_ZibOe77yo/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/e_ZibOe77yo/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            }
-          },
-          "channelTitle": "Tiffin",
-          "liveBroadcastContent": "none"
-        }
+      "maxres": {
+       "url": "https://i.ytimg.com/vi/TlB_eWDSMt4/maxresdefault.jpg",
+       "width": 1280,
+       "height": 720
       }
-    ]
-  },
-  "status": 200,
-  "statusText": "OK",
-  "headers": {
-    "connection": "Keep-Alive",
-    "content-length": "4350",
-    "content-type": "application/json; charset=utf-8",
-    "date": "Tue, 28 Apr 2020 08:12:17 GMT",
-    "etag": "W/\"10fe-xGdPhaj3PRjmKinLvst2m/GCASc\"",
-    "keep-alive": "timeout=5, max=100",
-    "server": "Apache/2.4.29 (Ubuntu)",
-    "x-powered-by": "Express"
-  },
-  "config": {
-    "url": "/api/tube?search=react programming",
-    "method": "get",
-    "headers": {
-      "Accept": "application/json, text/plain, */*"
+     },
+     "channelTitle": "Programming with Mosh",
+     "tags": [
+      "nodejs",
+      "node tutorial",
+      "node js tutorial",
+      "node.js tutorial",
+      "nodejs tutorial",
+      "learn node.js",
+      "learn nodejs",
+      "node js",
+      "node.js",
+      "nodejs beginners",
+      "node",
+      "what is node.js",
+      "what is nodejs",
+      "node js tutorial for beginners",
+      "server side",
+      "mean stack",
+      "js",
+      "server",
+      "web development",
+      "javascript",
+      "beginner",
+      "backend",
+      "code with mosh",
+      "programming with mosh",
+      "mosh hamedani",
+      "node js crash course"
+     ],
+     "categoryId": "22",
+     "liveBroadcastContent": "none",
+     "localized": {
+      "title": "Node.js Tutorial for Beginners: Learn Node in 1 Hour | Mosh",
+      "description": "Node.js Tutorial for Beginners: Learn Node in 1 Hour\n\n🔥Get the full course for $29 (reg price $149) - LIMITED TIME: http://bit.ly/2NfkpOC\n\nSubscribe for more videos: \nhttps://www.youtube.com/channel/UCWv7vMbMWH4-V0ZXdmDpPBA?sub_confirmation=1\n\nTABLE OF CONTENT: \n00:00 What is Node \n03:01 Node Architecture\n06:04 How Node Works \n10:29 Installing Node \n13:01 Your First Node Program \n15:22 Node Module System\n15:52 Global Object\n19:14 Modules \n22:51 Creating a Module \n27:35 Loading a Module \n32:59 Module Wrapper Function\n39:53 Path Module\n44:03 OS Module\n48:22 File System Module\n53:14 Events Module\n59:33 Event Arguments\n01:02:43 Extending EventEmitter\n01:10:46 HTTP Module \n\n\nWant to learn more from me? Check out my blog and courses: \n\nhttp://programmingwithmosh.com \nhttps://www.facebook.com/programmingwithmosh/\nhttps://twitter.com/moshhamedani"
+     },
+     "defaultAudioLanguage": "en-US"
     },
-    "transformRequest": [
-      null
-    ],
-    "transformResponse": [
-      null
-    ],
-    "timeout": 0,
-    "xsrfCookieName": "XSRF-TOKEN",
-    "xsrfHeaderName": "X-XSRF-TOKEN",
-    "maxContentLength": -1
-  },
-  "request": {}
+    "contentDetails": {
+     "duration": "PT1H18M16S",
+     "dimension": "2d",
+     "definition": "hd",
+     "caption": "false",
+     "licensedContent": true,
+     "projection": "rectangular"
+    }
+   },
+   {
+    "kind": "youtube#video",
+    "etag": "\"Dn5xIderbhAnUk5TAW0qkFFir0M/CNstAlIu5mCIBIzyCF2c7OksRjo\"",
+    "id": "uVwtVBpw7RQ",
+    "snippet": {
+     "publishedAt": "2018-01-23T23:51:31.000Z",
+     "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+     "title": "What is Node.js? | Mosh",
+     "description": "What is Node.js? This short video makes it really simple. \n\n🔥Get the COMPLETE Course (45% OFF - LIMITED TIME): https://programmingwithmosh.com/courses/node\n\nSubscribe for more videos: \nhttps://www.youtube.com/channel/UCWv7vMbMWH4-V0ZXdmDpPBA?sub_confirmation=1\n\nWant to learn more from me? Check out my blog and courses: \nhttp://programmingwithmosh.com \nhttps://www.facebook.com/programmingwithmosh/\nhttps://twitter.com/moshhamedani",
+     "thumbnails": {
+      "default": {
+       "url": "https://i.ytimg.com/vi/uVwtVBpw7RQ/default.jpg",
+       "width": 120,
+       "height": 90
+      },
+      "medium": {
+       "url": "https://i.ytimg.com/vi/uVwtVBpw7RQ/mqdefault.jpg",
+       "width": 320,
+       "height": 180
+      },
+      "high": {
+       "url": "https://i.ytimg.com/vi/uVwtVBpw7RQ/hqdefault.jpg",
+       "width": 480,
+       "height": 360
+      },
+      "standard": {
+       "url": "https://i.ytimg.com/vi/uVwtVBpw7RQ/sddefault.jpg",
+       "width": 640,
+       "height": 480
+      },
+      "maxres": {
+       "url": "https://i.ytimg.com/vi/uVwtVBpw7RQ/maxresdefault.jpg",
+       "width": 1280,
+       "height": 720
+      }
+     },
+     "channelTitle": "Programming with Mosh",
+     "tags": [
+      "node",
+      "node.js",
+      "nodejs",
+      "backend",
+      "back-end",
+      "rest api",
+      "restful api",
+      "http",
+      "real-time",
+      "programming with mosh",
+      "code with mosh"
+     ],
+     "categoryId": "22",
+     "liveBroadcastContent": "none",
+     "localized": {
+      "title": "What is Node.js? | Mosh",
+      "description": "What is Node.js? This short video makes it really simple. \n\n🔥Get the COMPLETE Course (45% OFF - LIMITED TIME): https://programmingwithmosh.com/courses/node\n\nSubscribe for more videos: \nhttps://www.youtube.com/channel/UCWv7vMbMWH4-V0ZXdmDpPBA?sub_confirmation=1\n\nWant to learn more from me? Check out my blog and courses: \nhttp://programmingwithmosh.com \nhttps://www.facebook.com/programmingwithmosh/\nhttps://twitter.com/moshhamedani"
+     },
+     "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+     "duration": "PT3M43S",
+     "dimension": "2d",
+     "definition": "hd",
+     "caption": "false",
+     "licensedContent": true,
+     "projection": "rectangular"
+    }
+   },
+   {
+    "kind": "youtube#video",
+    "etag": "\"Dn5xIderbhAnUk5TAW0qkFFir0M/5UouWl1WUd4Cmi6ev4kB5VBRfVA\"",
+    "id": "BasJ72voVSo",
+    "snippet": {
+     "publishedAt": "2014-06-18T00:54:47.000Z",
+     "channelId": "UCkRHTY02BWZ9aFPDzvmhloQ",
+     "title": "NODE: Programming the NODE irrigation controller",
+     "description": "In this video, you will learn how to program the Node battery powered irrigation controller.\nThe Node controller requires the use of DC latching solenoids.  To create a program on the Node sprinkler timer you will need a start time, run time, and day to water. \n\nTo get started, learn about the buttons on the Node sprinkler clock.  To turn the Node display on, hold any button down.  Use the arrow buttons to navigate through the settings, the plus and minus buttons to adjust a given option, and the center button to change the page or advance to the next feature.\n\nTo program the Node battery operated irrigation controller you must first set the date and time. To set the time and date on the node press the center button, simply scroll through the choices using the left and right arrow buttons and adjust the displayed item using the plus and minus buttons.\n\nAn irrigation program is a group of stations that are set to water at the same time.  To create a program on your Node battery operated sprinkler controller press the center button to access the start time programming option. Adjust your start times using the plus and minus buttons on the irrigation controller.  To delete an irrigation start time, use the plus button to find the off position just before midnight and press the center button.\n\nTo assign run times to the stations on your Node battery powered sprinkler clock, use the center button to scroll past the start time screen to the station run time option.  Use the plus button to add minutes to your run time, then use the right arrow scroll to the next station.  Once you have set your station run times for your sprinklers, press the center button to scroll back to the home screen.\n\nTo set the days that you want your sprinkler system to run using your Node battery powered irrigation controller, use the center button to scroll through to the water days option.  Use the right and left arrows to scroll through the dots that signify the days of the week (starting with Monday) and hit plus or minus to select the days to water. Another option is to set your Node controller to use an odd/even watering option, or interval mode to set the number of days between watering cycles.\n\nTo set up a separate program on your Node battery powered sprinkler timer, use the center button to go to the start time option and hit the program button one time. Once in program B, you will assign start times, run times, and watering days for this program. After setting the program, press the center button to return to the home screen.\n\nAnother feature that the Node battery powered irrigation controller has is the seasonal adjustment option. To activate the seasonal adjustment, press the center button to go to the percentage option and adjust using the plus or minus buttons.  Once the desired setting is reached, press the center button to return to the home screen.\n\nTo run your sprinkler stations manually with the Node battery powered irrigation clock, hold down the right arrow to enter into the manual mode.  Select the station you wish to run by using the right arrow.  To turn the station off, use the center button to scroll to the off screen and it will turn off that zone, then use the center button to return to the home screen.\n",
+     "thumbnails": {
+      "default": {
+       "url": "https://i.ytimg.com/vi/BasJ72voVSo/default.jpg",
+       "width": 120,
+       "height": 90
+      },
+      "medium": {
+       "url": "https://i.ytimg.com/vi/BasJ72voVSo/mqdefault.jpg",
+       "width": 320,
+       "height": 180
+      },
+      "high": {
+       "url": "https://i.ytimg.com/vi/BasJ72voVSo/hqdefault.jpg",
+       "width": 480,
+       "height": 360
+      },
+      "standard": {
+       "url": "https://i.ytimg.com/vi/BasJ72voVSo/sddefault.jpg",
+       "width": 640,
+       "height": 480
+      },
+      "maxres": {
+       "url": "https://i.ytimg.com/vi/BasJ72voVSo/maxresdefault.jpg",
+       "width": 1280,
+       "height": 720
+      }
+     },
+     "channelTitle": "Hunter Irrigation",
+     "tags": [
+      "hunter node",
+      "hunter industries",
+      "irrigation controller",
+      "how to",
+      "irrigation controller troubleshooting",
+      "irrigation controller review",
+      "irrigation controller not working",
+      "irrigation controller programming",
+      "hunter node 400",
+      "hunter node solenoid",
+      "hunter node controller manual",
+      "hunter node program",
+      "irrigation controller installation",
+      "hunter node manual"
+     ],
+     "categoryId": "26",
+     "liveBroadcastContent": "none",
+     "localized": {
+      "title": "NODE: Programming the NODE irrigation controller",
+      "description": "In this video, you will learn how to program the Node battery powered irrigation controller.\nThe Node controller requires the use of DC latching solenoids.  To create a program on the Node sprinkler timer you will need a start time, run time, and day to water. \n\nTo get started, learn about the buttons on the Node sprinkler clock.  To turn the Node display on, hold any button down.  Use the arrow buttons to navigate through the settings, the plus and minus buttons to adjust a given option, and the center button to change the page or advance to the next feature.\n\nTo program the Node battery operated irrigation controller you must first set the date and time. To set the time and date on the node press the center button, simply scroll through the choices using the left and right arrow buttons and adjust the displayed item using the plus and minus buttons.\n\nAn irrigation program is a group of stations that are set to water at the same time.  To create a program on your Node battery operated sprinkler controller press the center button to access the start time programming option. Adjust your start times using the plus and minus buttons on the irrigation controller.  To delete an irrigation start time, use the plus button to find the off position just before midnight and press the center button.\n\nTo assign run times to the stations on your Node battery powered sprinkler clock, use the center button to scroll past the start time screen to the station run time option.  Use the plus button to add minutes to your run time, then use the right arrow scroll to the next station.  Once you have set your station run times for your sprinklers, press the center button to scroll back to the home screen.\n\nTo set the days that you want your sprinkler system to run using your Node battery powered irrigation controller, use the center button to scroll through to the water days option.  Use the right and left arrows to scroll through the dots that signify the days of the week (starting with Monday) and hit plus or minus to select the days to water. Another option is to set your Node controller to use an odd/even watering option, or interval mode to set the number of days between watering cycles.\n\nTo set up a separate program on your Node battery powered sprinkler timer, use the center button to go to the start time option and hit the program button one time. Once in program B, you will assign start times, run times, and watering days for this program. After setting the program, press the center button to return to the home screen.\n\nAnother feature that the Node battery powered irrigation controller has is the seasonal adjustment option. To activate the seasonal adjustment, press the center button to go to the percentage option and adjust using the plus or minus buttons.  Once the desired setting is reached, press the center button to return to the home screen.\n\nTo run your sprinkler stations manually with the Node battery powered irrigation clock, hold down the right arrow to enter into the manual mode.  Select the station you wish to run by using the right arrow.  To turn the station off, use the center button to scroll to the off screen and it will turn off that zone, then use the center button to return to the home screen."
+     },
+     "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+     "duration": "PT11M25S",
+     "dimension": "2d",
+     "definition": "hd",
+     "caption": "true",
+     "licensedContent": false,
+     "projection": "rectangular"
+    }
+   },
+   {
+    "kind": "youtube#video",
+    "etag": "\"Dn5xIderbhAnUk5TAW0qkFFir0M/SUkveRkNbjyTSDP1tyw60-zcdaU\"",
+    "id": "RLtyhwFtXQA",
+    "snippet": {
+     "publishedAt": "2018-12-04T15:17:49.000Z",
+     "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+     "title": "Learn Node.js - Full Tutorial for Beginners",
+     "description": "Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.\n\nLearn all about Node.js in the full course for beginners.\n\n🔗Install Node.js: https://nodejs.org/en/\n🔗Install Visual Studio Code: https://code.visualstudio.com/\n\n⭐️Course Contents ⭐️\n⌨️ (0:00:00) Installing Nodejs\n⌨️ (0:05:22) Working With Modules\n⌨️ (0:14:40) The Events Module and EventEmitter Class\n⌨️ (0:22:32) Working With The ReadLine Module.\n⌨️ (0:34:36) Working With File System Module (Creating,Reading,Deleting,Renaming) Files\n⌨️ (0:45:04) Working With File System Module. Creating and Deleting Folders\n⌨️ (0:57:36) Working with Readable and Writable Streams\n⌨️ (1:02:40) Why you should use Streams\n⌨️ (1:05:41) Pipes and Pipe Chaining. (Readable,Writable and Transform Streams)\n⌨️ (1:12:36) Creating a Http Server using the Http Module\n⌨️ (1:17:52) Serving Static Files with Http and File System Module (html,json,image)\n⌨️ (1:24:30) Create our Package.json using Npm Init\n⌨️ (1:27:18) Installing Packages using Npm (Node Package Manager)\n⌨️ (1:32:23) Semantic Versioning\n⌨️ (1:36:42) Getting started with Express Web Framework\n⌨️ (1:40:48) Working with Express Http Get Request, Route Params and Query Strings\n⌨️ (1:49:52) Serving Static Files with Express\n⌨️ (2:54:36) Http Post Request with Express and Body Parser Module\n⌨️ (2:00:17) Working with JSON Data with Express and the Body Parser Module\n⌨️ (2:07:40) User Input Validation With Express And JOI\n⌨️ (2:15:24) User Input Validation with JOI Validating Nested Object and Arrays\n⌨️ (2:22:34) Getting Started With EJS Templates With Express\n⌨️ (2:35:22) How does MiddleWare Work and Creating Custom Middleware\n⌨️ (2:42:49) Working With The Express Router\n\nTutorial from NoobCoder. Check out the NoobCoder YouTube channel: https://www.youtube.com/channel/UCV9MhzHCMx0Y83b5F8HWv-Q\n\n--\n\nLearn to code for free and get a developer job: https://www.freecodecamp.org\n\nRead hundreds of articles on programming: https://medium.freecodecamp.org\n\nAnd subscribe for new videos on technology every day: https://youtube.com/subscription_center?add_user=freecodecamp",
+     "thumbnails": {
+      "default": {
+       "url": "https://i.ytimg.com/vi/RLtyhwFtXQA/default.jpg",
+       "width": 120,
+       "height": 90
+      },
+      "medium": {
+       "url": "https://i.ytimg.com/vi/RLtyhwFtXQA/mqdefault.jpg",
+       "width": 320,
+       "height": 180
+      },
+      "high": {
+       "url": "https://i.ytimg.com/vi/RLtyhwFtXQA/hqdefault.jpg",
+       "width": 480,
+       "height": 360
+      },
+      "standard": {
+       "url": "https://i.ytimg.com/vi/RLtyhwFtXQA/sddefault.jpg",
+       "width": 640,
+       "height": 480
+      },
+      "maxres": {
+       "url": "https://i.ytimg.com/vi/RLtyhwFtXQA/maxresdefault.jpg",
+       "width": 1280,
+       "height": 720
+      }
+     },
+     "channelTitle": "freeCodeCamp.org",
+     "tags": [
+      "nodejs tutorial",
+      "nodejs course",
+      "node",
+      "nodejs",
+      "node.js",
+      "javascript",
+      "js",
+      "node tutorial",
+      "node.js tutorial",
+      "web",
+      "web development",
+      "beginner",
+      "backend",
+      "server",
+      "node js",
+      "node js tutorial for beginners"
+     ],
+     "categoryId": "27",
+     "liveBroadcastContent": "none",
+     "localized": {
+      "title": "Learn Node.js - Full Tutorial for Beginners",
+      "description": "Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.\n\nLearn all about Node.js in the full course for beginners.\n\n🔗Install Node.js: https://nodejs.org/en/\n🔗Install Visual Studio Code: https://code.visualstudio.com/\n\n⭐️Course Contents ⭐️\n⌨️ (0:00:00) Installing Nodejs\n⌨️ (0:05:22) Working With Modules\n⌨️ (0:14:40) The Events Module and EventEmitter Class\n⌨️ (0:22:32) Working With The ReadLine Module.\n⌨️ (0:34:36) Working With File System Module (Creating,Reading,Deleting,Renaming) Files\n⌨️ (0:45:04) Working With File System Module. Creating and Deleting Folders\n⌨️ (0:57:36) Working with Readable and Writable Streams\n⌨️ (1:02:40) Why you should use Streams\n⌨️ (1:05:41) Pipes and Pipe Chaining. (Readable,Writable and Transform Streams)\n⌨️ (1:12:36) Creating a Http Server using the Http Module\n⌨️ (1:17:52) Serving Static Files with Http and File System Module (html,json,image)\n⌨️ (1:24:30) Create our Package.json using Npm Init\n⌨️ (1:27:18) Installing Packages using Npm (Node Package Manager)\n⌨️ (1:32:23) Semantic Versioning\n⌨️ (1:36:42) Getting started with Express Web Framework\n⌨️ (1:40:48) Working with Express Http Get Request, Route Params and Query Strings\n⌨️ (1:49:52) Serving Static Files with Express\n⌨️ (2:54:36) Http Post Request with Express and Body Parser Module\n⌨️ (2:00:17) Working with JSON Data with Express and the Body Parser Module\n⌨️ (2:07:40) User Input Validation With Express And JOI\n⌨️ (2:15:24) User Input Validation with JOI Validating Nested Object and Arrays\n⌨️ (2:22:34) Getting Started With EJS Templates With Express\n⌨️ (2:35:22) How does MiddleWare Work and Creating Custom Middleware\n⌨️ (2:42:49) Working With The Express Router\n\nTutorial from NoobCoder. Check out the NoobCoder YouTube channel: https://www.youtube.com/channel/UCV9MhzHCMx0Y83b5F8HWv-Q\n\n--\n\nLearn to code for free and get a developer job: https://www.freecodecamp.org\n\nRead hundreds of articles on programming: https://medium.freecodecamp.org\n\nAnd subscribe for new videos on technology every day: https://youtube.com/subscription_center?add_user=freecodecamp"
+     },
+     "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+     "duration": "PT2H48M44S",
+     "dimension": "2d",
+     "definition": "hd",
+     "caption": "false",
+     "licensedContent": false,
+     "projection": "rectangular"
+    }
+   },
+   {
+    "kind": "youtube#video",
+    "etag": "\"Dn5xIderbhAnUk5TAW0qkFFir0M/B3O3prmRcDQ4tSG7bye1ntzBQPM\"",
+    "id": "JH4qVqplC8E",
+    "snippet": {
+     "publishedAt": "2016-02-25T11:49:09.000Z",
+     "channelId": "UCSJbGtTlrDami-tDGPUV9-w",
+     "title": "Node.js - Tutorial - First Application",
+     "description": "Learn Node.js from scratch - let's build a complete app!\nJoin the full Node.js course: https://acad.link/nodejs\nExclusive discount also available for our MongoDB course: https://acad.link/mongodb\n\nDive into the full Node.js series: https://academind.com/learn/node-js/the-basics/\n\nCheck out all our other courses: https://academind.com/learn/our-courses\n\n----------\n\nComplete source code: https://github.com/mschwarzmueller/nodejs-basics-tutorial\n\n----------\n\n• Go to https://www.academind.com and subscribe to our newsletter to stay updated and to get exclusive content & discounts\n• Follow @maxedapps and @academind_real on Twitter\n• Join our Facebook community on https://www.facebook.com/academindchannel/\n\nSee you in the videos!\n\n----------\n\nAcademind is your source for online education in the areas of web development, frontend web development, backend web development, programming, coding and data science! No matter if you are looking for a tutorial, a course, a crash course, an introduction, an online tutorial or any related video, we try our best to offer you the content you are looking for. Our topics include Angular, React, Vue, Html, CSS, JavaScript, TypeScript, Redux, Nuxt.js, RxJs, Bootstrap, Laravel, Node.js, Progressive Web Apps (PWA), Ionic, React Native, Regular Expressions (RegEx), Stencil, Power BI, Amazon Web Services (AWS), Firebase or other topics, make sure to have a look at this channel or at academind.com to find the learning resource of your choice!",
+     "thumbnails": {
+      "default": {
+       "url": "https://i.ytimg.com/vi/JH4qVqplC8E/default.jpg",
+       "width": 120,
+       "height": 90
+      },
+      "medium": {
+       "url": "https://i.ytimg.com/vi/JH4qVqplC8E/mqdefault.jpg",
+       "width": 320,
+       "height": 180
+      },
+      "high": {
+       "url": "https://i.ytimg.com/vi/JH4qVqplC8E/hqdefault.jpg",
+       "width": 480,
+       "height": 360
+      },
+      "standard": {
+       "url": "https://i.ytimg.com/vi/JH4qVqplC8E/sddefault.jpg",
+       "width": 640,
+       "height": 480
+      },
+      "maxres": {
+       "url": "https://i.ytimg.com/vi/JH4qVqplC8E/maxresdefault.jpg",
+       "width": 1280,
+       "height": 720
+      }
+     },
+     "channelTitle": "Academind",
+     "tags": [
+      "node.js",
+      "nodejs",
+      "Node.js",
+      "Nodejs",
+      "Tutorial",
+      "First App",
+      "Full App"
+     ],
+     "categoryId": "28",
+     "liveBroadcastContent": "none",
+     "localized": {
+      "title": "Node.js - Tutorial - First Application",
+      "description": "Learn Node.js from scratch - let's build a complete app!\nJoin the full Node.js course: https://acad.link/nodejs\nExclusive discount also available for our MongoDB course: https://acad.link/mongodb\n\nDive into the full Node.js series: https://academind.com/learn/node-js/the-basics/\n\nCheck out all our other courses: https://academind.com/learn/our-courses\n\n----------\n\nComplete source code: https://github.com/mschwarzmueller/nodejs-basics-tutorial\n\n----------\n\n• Go to https://www.academind.com and subscribe to our newsletter to stay updated and to get exclusive content & discounts\n• Follow @maxedapps and @academind_real on Twitter\n• Join our Facebook community on https://www.facebook.com/academindchannel/\n\nSee you in the videos!\n\n----------\n\nAcademind is your source for online education in the areas of web development, frontend web development, backend web development, programming, coding and data science! No matter if you are looking for a tutorial, a course, a crash course, an introduction, an online tutorial or any related video, we try our best to offer you the content you are looking for. Our topics include Angular, React, Vue, Html, CSS, JavaScript, TypeScript, Redux, Nuxt.js, RxJs, Bootstrap, Laravel, Node.js, Progressive Web Apps (PWA), Ionic, React Native, Regular Expressions (RegEx), Stencil, Power BI, Amazon Web Services (AWS), Firebase or other topics, make sure to have a look at this channel or at academind.com to find the learning resource of your choice!"
+     },
+     "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+     "duration": "PT8M24S",
+     "dimension": "2d",
+     "definition": "hd",
+     "caption": "false",
+     "licensedContent": true,
+     "projection": "rectangular"
+    }
+   }
+  ]
+ }
 }
