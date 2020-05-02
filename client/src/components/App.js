@@ -15,6 +15,11 @@ class App extends Component {
   onSearchSubmit = async (search) => {
     this.setState({ errorMessage: '' });
 
+    if(search === '') {
+      this.setState({ errorMessage: 'Please enter a search term' });
+      return;
+    }
+
     try {
       const response = await axios.get('/api', {
         params: {
@@ -23,12 +28,13 @@ class App extends Component {
       });
       this.setState({ videos: response.data.items });
       this.setState({ selectedVideo: response.data.items[0] });
-
     } catch (error) {
-      if(error.response.status === 403) {
-        this.setState({ errorMessage: 'The daily YouTube API quota limit is exceeded, sorry!' });
-      } else if(error.response.status === 400) {
-        this.setState({ errorMessage: 'Please enter a search term' });
+      if(error.response) {
+        if (error.response.status === 403) {
+          this.setState({ errorMessage: 'The daily YouTube API quota limit is exceeded, sorry!' });
+        } else {
+          this.setState({ errorMessage: 'An error occured' });
+        }
       } else {
         this.setState({ errorMessage: 'An error occured' });
       }
