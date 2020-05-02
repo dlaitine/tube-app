@@ -48,7 +48,7 @@ First build a production version of the client. Then move only the following fil
 * README.md (for instructions, optional)
 
 Run commands on root folder:
-`npm install`
+`npm install`  
 `NODE_ENV='production' YOUTUBE_API_KEY='yourkeyhere' PORT='5000' npm run startServer`
 
 
