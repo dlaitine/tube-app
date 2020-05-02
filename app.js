@@ -6,9 +6,7 @@ var app = express();
 
 var port = process.env.PORT || '5000';
 var key = process.env.YOUTUBE_API_KEY;
-var env = process.env.NODE_ENV;
 
-var mockResponse = require('./mock-response.json');
 var YTVideoIdSearch = require('./api/youtubeVideoIdSearch');
 var YTVideoSearch = require('./api/youtubeVideoSearch');
 
@@ -19,10 +17,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/public'))
 
 app.get('/api', function(req, res, next) {
-  if(env === 'mock') {
-    return res.status(200).send(mockResponse.data);
-  }
-
   if(!req.query.search) {
     const err = new Error('Required query params missing');
     err.status = 400;

@@ -22,8 +22,6 @@ Install all dependencies to client and server.
 
 Starts both client and server. Client runs on http://localhost:3000 and uses local server to proxy YouTube API requests. Server runs on http://localhost:5000. Client hot reload included.
 
-Use NODE_ENV='mock' to make backend to return mock data, instead of making YouTube API calls.
-
 ### `npm run startServer`
 
 Starts server only. Server runs on http://localhost:5000. If client has been built, it is available through server as well. Changes to client aren't reloaded without client rebuild.
@@ -40,14 +38,15 @@ Builds production version of the client. Can be used through server, without sta
 
 First build a production version of the client. Then move only the following files and folders to server:
 
+* api/
 * public/
 * app.js
 * package-lock.json
 * package.json
 * README.md (for instructions, optional)
 
-Run command on root folder:
-
+Run commands on root folder:
+`npm install`
 `NODE_ENV='production' YOUTUBE_API_KEY='yourkeyhere' PORT='5000' npm run startServer`
 
 

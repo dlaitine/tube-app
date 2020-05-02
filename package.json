@@ -7,7 +7,7 @@
     "startServer": "node app.js",
     "startClient": "npm start --prefix client",
     "installAll": "npm install & cd client & npm install",
-    "buildClient": "npm run build --prefix client"
+    "buildClient": "rm -rf public && npm run build --prefix client"
   },
   "dependencies": {
     "axios": "^0.19.2",

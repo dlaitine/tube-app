@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class SearchBar extends Component {
-  state = { search: 'node programming' };
+  state = { search: '' };
 
   onFormSubmit(event) {
     event.preventDefault();
