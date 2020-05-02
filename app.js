@@ -7,7 +7,6 @@ var app = express();
 var port = process.env.PORT || '5000';
 var key = process.env.YOUTUBE_API_KEY;
 
-var YTVideoIdSearch = require('./api/youtubeVideoIdSearch');
 var YTVideoSearch = require('./api/youtubeVideoSearch');
 
 app.set('port', port);
@@ -23,7 +22,7 @@ app.get('/api', function(req, res, next) {
     throw err;
   }
 
-  getVideos(req.query.search)
+  YTVideoSearch(key, req.query.search)
   .then((response) => {
     return res.status(200).send(response);
   })
@@ -36,16 +35,6 @@ app.get('/api', function(req, res, next) {
     }
   })
 });
-
-const getVideos = async (search) => {
-  const videoIdResponse = await YTVideoIdSearch(key, search);
-  const videoIdList = videoIdResponse.data.items.map(video => {
-    return video.id.videoId;
-  });
-
-  const videoResponse = await YTVideoSearch(key, videoIdList);
-  return videoResponse.data;
-}
 
 var server = http.createServer(app);
 server.listen(port);
