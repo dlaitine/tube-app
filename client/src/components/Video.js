@@ -10,8 +10,8 @@ const Video = props => {
   let formattedDate = dateFormatter(props.video.snippet.publishedAt);
 
   return (
-  <div className="ui card video-container">
-    <div className="iframe-container">
+  <div id="video-container" className="ui card">
+    <div id="iframe-container">
       <iframe
         title="video"
         src={videoUrl}

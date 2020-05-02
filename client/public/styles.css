@@ -2,27 +2,27 @@
     margin-top: 10px;
 }
 
-.video-container {
-    width: 60% !important;
+#video-container {
+    width: 60%;
     float: left;
-    margin: 0 !important;
-    border-radius: 0 !important;
+    margin: 0;
+    border-radius: 0;
 }
 
 .ui.card > :first-child {
     border-radius: 0 !important;
 }
 
-.iframe-container {
+#iframe-container {
     overflow: hidden;
     padding-top: 56.25%;
     position: relative;
     width: 100%;
     float: left;
-    border-radius: 0px !important;
+    border-radius: 0;
   }
 
-.iframe-container iframe {
+#iframe-container iframe {
     border: 0;
     left: 0;
     position: absolute;
@@ -31,11 +31,11 @@
     height: 100%;
 }
 
-.video-list {
+#video-list {
     float: right;
-    width: 40% !important;
-    padding-left: 20px !important;
-    margin-top: 0px !important;
+    width: 40%;
+    padding-left: 20px;
+    margin-top: 0px;
 }
 
 .video-image {
@@ -59,21 +59,21 @@
 
 @media only screen and (max-width: 991px) {
 
-    .video-container {
-        width: 100% !important;
-    }
-
-    .iframe-container {
+    #video-container {
         width: 100%;
     }
 
-    .iframe-container iframe {
+    #iframe-container {
+        width: 100%;
+    }
+
+    #iframe-container iframe {
         height: 100%;
     }
 
-    .video-list {
-        width: 100% !important;
-        margin-top: 20px !important;
-        padding-left: 0px !important;
+    #video-list {
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 0px;
     }
 }

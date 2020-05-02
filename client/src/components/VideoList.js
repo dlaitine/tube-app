@@ -32,7 +32,7 @@ const VideoList = props => {
       </div>
   });
 
-  return <div className="ui divided unstackable link items video-list">{videos}</div>
+  return <div id="video-list" className="ui divided unstackable link items">{videos}</div>
 }
 
 export default VideoList;
