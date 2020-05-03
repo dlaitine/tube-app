@@ -17,9 +17,7 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/api', function(req, res, next) {
   if(!req.query.search) {
-    const err = new Error('Required query params missing');
-    err.status = 400;
-    throw err;
+    return res.status(400).send("Missing search parameter");
   }
 
   YTVideoSearch(key, req.query.search)
